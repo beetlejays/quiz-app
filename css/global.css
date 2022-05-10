@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}

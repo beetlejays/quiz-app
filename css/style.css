@@ -1,0 +1,21 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./utility.css";
+@import "./global.css";
+
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/headline.css";
+@import "./components/answer.css";
+@import "./components/btn.css";
+@import "./components/card.css";
+
+@import "./components/footer.css";
+@import "./components/media.css";
+
+main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

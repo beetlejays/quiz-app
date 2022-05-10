@@ -1,0 +1,7 @@
+.bottom-navigation {
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+}

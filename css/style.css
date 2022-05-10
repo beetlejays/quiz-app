@@ -11,11 +11,3 @@
 @import "./components/card.css";
 
 @import "./components/footer.css";
-@import "./components/media.css";
-
-main {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

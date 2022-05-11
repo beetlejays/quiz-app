@@ -1,3 +1,9 @@
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .bottom-navigation {
   background-color: var(--color-secondary);
   display: flex;

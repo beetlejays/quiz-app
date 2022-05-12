@@ -1,0 +1,14 @@
+.tags ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}

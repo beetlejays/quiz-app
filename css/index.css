@@ -9,9 +9,5 @@
 @import "./components/answer.css";
 @import "./components/btn.css";
 @import "./components/card.css";
-
-@import "./components/bottom_navigation.css";
-nav {
-  position: fixed;
-  bottom: 0;
-}
+@import "./components/tag.css";
+@import "./components/nav.css";

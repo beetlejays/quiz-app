@@ -2,14 +2,16 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: var(--color-secondary);
 }
 
 .nav {
-  background-color: var(--color-secondary);
+  max-width: 800px;
   display: flex;
   justify-content: space-evenly;
   height: 80px;
   align-items: center;
+  margin: auto;
 }
 
 .nav a {

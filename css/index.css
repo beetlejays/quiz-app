@@ -5,6 +5,7 @@
 
 @import "./components/header.css";
 @import "./components/main.css";
+@import "./components/mainHeadline.css";
 @import "./components/headline.css";
 @import "./components/answer.css";
 @import "./components/btn.css";

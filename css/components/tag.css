@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   padding-top: 2rem;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .tags li {

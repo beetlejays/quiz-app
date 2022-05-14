@@ -1,5 +1,5 @@
 header {
-  min-height: 50px;
+  min-height: 80px;
   background-color: var(--color-primary);
   display: flex;
   justify-content: center;

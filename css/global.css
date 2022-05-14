@@ -6,3 +6,7 @@ footer {
   position: fixed;
   z-index: 2;
 }
+
+p {
+  color: var(--dark-grey);
+}

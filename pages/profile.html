@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <h1>Profile</h1>
+      <h1 class="main-headline">Profile</h1>
     </header>
 
     <main>
@@ -41,11 +41,20 @@
       </section>
     </main>
 
-    <nav class="nav">
-      <a href="../index.html">Index</a>
-      <a href="./bookmarks.html">Bookmarks</a>
-      <a href="./create.html">Create</a>
-      <a href="./profile.html">Profile</a>
+    <nav>
+      <div class="nav">
+        <a href="../index.html">
+          <img class="icon" src="../img/home.svg" alt=""
+        /></a>
+        <a href="bookmarks.html">
+          <img class="icon" src="../img/bookmark.svg" alt=""
+        /></a>
+        <a href="create.html">
+          <img class="icon" src="../img/input.svg" alt=""
+        /></a>
+
+        <img class="icon nav--active" src="../img/user.svg" alt="" />
+      </div>
     </nav>
 
     <script src="../js/index.js"></script>

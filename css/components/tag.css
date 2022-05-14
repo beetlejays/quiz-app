@@ -9,7 +9,8 @@
 
 .tags li {
   display: inline-block;
-  border: 1px solid #333;
+  border: 1px solid var(--color-primary);
   padding: 0.8rem 1rem;
   border-radius: 4px;
+  color: var(--color-primary);
 }

@@ -19,4 +19,9 @@ nav {
   color: white;
   font-size: 1.2rem;
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.nav a:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg);
 }

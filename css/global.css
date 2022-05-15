@@ -20,8 +20,10 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .profile__picture {
-  width: 24rem;
+  max-width: 18rem;
+  height: auto;
 }

@@ -15,3 +15,13 @@ h3 {
   font-size: 2rem;
   color: var(--color-primary);
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile__picture {
+  width: 24rem;
+}

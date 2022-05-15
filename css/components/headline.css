@@ -4,7 +4,22 @@
 }
 
 .about-headline {
-  font-size: 1.3rem;
+  font-size: 3rem;
   text-transform: uppercase;
+  font-weight: 800;
   color: var(--color-primary);
+  line-height: 1;
+}
+
+.about-headline__thin {
+  font-weight: 200;
+}
+
+.about-headline::after {
+  content: "";
+  position: relative;
+  width: 3rem;
+  border-bottom: 3px solid var(--light-grey);
+  padding: 0.1rem;
+  display: block;
 }

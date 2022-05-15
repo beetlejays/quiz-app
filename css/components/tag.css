@@ -1,3 +1,7 @@
+.tags {
+  margin: 2rem 0;
+}
+
 .tags ul {
   list-style-type: none;
   display: flex;

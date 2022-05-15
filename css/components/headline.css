@@ -2,3 +2,9 @@
   font-size: 1.5rem;
   color: lightslategray;
 }
+
+.about-headline {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}

@@ -10,3 +10,8 @@ footer {
 p {
   color: var(--dark-grey);
 }
+
+h3 {
+  font-size: 2rem;
+  color: var(--color-primary);
+}

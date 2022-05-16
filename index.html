@@ -25,7 +25,7 @@
           </p>
         </div>
         <div class="container flex--center pt-1 pb-1">
-          <button class="btn" id="button" data-js="button-show">
+          <button class="btn" id="button" data-js="show-answer">
             Show Answer / Hide
           </button>
         </div>
@@ -33,14 +33,15 @@
         <div class="answer" data-js="answer">
           <h2 class="answer__headline">The answer is</h2>
           <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="tags">
-          <ul>
-            <li>Tag one</li>
-            <li>Tag two</li>
-            <li>Tag three</li>
-            <li>Tag four</li>
-          </ul>
+
+          <div class="tags">
+            <ul>
+              <li>Tag one</li>
+              <li>Tag two</li>
+              <li>Tag three</li>
+              <li>Tag four</li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -77,7 +78,11 @@
       </section>
 
       <section class="card">
-        <img class="card__bookmark" src="./img/card-bookmark.svg" alt="" />
+        <img
+          class="card__bookmark"
+          src="./img/card-bookmark.svg"
+          alt="bookmark-icon"
+        />
         <div>
           <h2 class="headline">Question: What time is it?</h2>
           <p>
@@ -87,39 +92,38 @@
           </p>
         </div>
         <div class="container flex--center pt-1 pb-1">
-          <button class="btn" id="button">Show Answer / Hide</button>
+          <button class="btn" data-js="show-button">Show Answer / Hide</button>
         </div>
 
-        <div class="answer">
+        <div class="answer" data-js="answer">
           <h2 class="answer__headline">The answer is</h2>
           <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="tags">
-          <ul>
-            <li>Tag one</li>
-            <li>Tag two</li>
-            <li>Tag three</li>
-            <li>Tag four</li>
-          </ul>
+
+          <div class="tags">
+            <ul>
+              <li>Tag one</li>
+              <li>Tag two</li>
+              <li>Tag three</li>
+              <li>Tag four</li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
 
-    <nav>
-      <div class="nav">
-        <img class="icon nav--active" src="img/home.svg" alt="" />
-        <a href="/pages/bookmarks.html">
-          <img class="icon" src="img/bookmark.svg" alt=""
-        /></a>
-        <a href="/pages/create.html">
-          <img class="icon" src="img/input.svg" alt=""
-        /></a>
-        <a href="/pages/profile.html">
-          <img class="icon" src="img/user.svg" alt=""
-        /></a>
-      </div>
+    <nav class="nav">
+      <img class="icon nav--active" src="./img/home.svg" alt="" />
+      <a href="/pages/bookmarks.html">
+        <img class="icon" src="./img/bookmark.svg" alt=""
+      /></a>
+      <a href="/pages/create.html">
+        <img class="icon" src="img/input.svg" alt=""
+      /></a>
+      <a href="/pages/profile.html">
+        <img class="icon" src="./img/user.svg" alt=""
+      /></a>
     </nav>
 
-    <script src="js/index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

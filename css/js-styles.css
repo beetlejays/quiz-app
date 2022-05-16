@@ -1,0 +1,15 @@
+[data-js="answer-container"] {
+  opacity: 0;
+  visibility: 0;
+  transition: 0.4s;
+}
+
+.answer-display {
+  opacity: 1;
+  visibility: 1;
+}
+
+.primary-bg-color--active {
+  background-color: var(--color-primary);
+  color: white;
+}

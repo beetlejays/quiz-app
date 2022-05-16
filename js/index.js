@@ -1,2 +1,10 @@
 const showButton = document.querySelector('[data-js="show-button"]');
-const answer = document.querySelector('[data-js="answer"]');
+const answerText = document.querySelector('[data-js="answer-container"]');
+
+function showAnswer() {
+  showButton.addEventListener("click", () => {
+    answerText.classList.add("answer-display");
+  });
+}
+
+showAnswer();

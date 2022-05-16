@@ -1,0 +1,7 @@
+[data-js="answer-container"] {
+  display: none;
+}
+
+.answer-display {
+  display: block;
+}

@@ -5,8 +5,17 @@
   box-shadow: 2px 6px 8px 3px #888888;
   padding: 3rem;
   position: relative;
+  transition: 0.4s ease-in-out;
+  height: 23rem;
+}
 
-  transition: 0.4s;
+.main-card {
+  max-width: 800px;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 6px 8px 3px #888888;
+  padding: 3rem;
+  position: relative;
 }
 
 .card__bookmark {
@@ -24,4 +33,20 @@
   top: -1rem;
   right: 2rem;
   filter: hue-rotate(90deg) brightness(2);
+}
+
+[data-js="answer-container"] {
+  opacity: 0;
+  visibility: 0;
+  transition: 0.4s;
+  height: 500px;
+}
+
+.answer-display {
+  opacity: 1;
+  visibility: 1;
+}
+
+.card--active {
+  min-height: 600px;
 }

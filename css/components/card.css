@@ -9,6 +9,15 @@
   height: 23rem;
 }
 
+.main-card {
+  max-width: 800px;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 6px 8px 3px #888888;
+  padding: 3rem;
+  position: relative;
+}
+
 .card__bookmark {
   width: 4rem;
   height: 4rem;

@@ -14,10 +14,10 @@
     </header>
 
     <main>
-      <section class="card">
+      <section class="card" data-js="card-container">
         <img
           class="card__bookmark card__bookmark--active"
-          src="/img/card-bookmark.svg"
+          src="../img/card-bookmark.svg"
           alt=""
         />
         <div>
@@ -28,21 +28,25 @@
             in iste?
           </p>
         </div>
+
         <div class="container flex--center pt-1 pb-1">
-          <button class="btn">Show Answer / Hide</button>
+          <button class="btn" id="button" data-js="show-button">
+            Show Answer / Hide
+          </button>
         </div>
 
-        <div class="answer">
+        <div class="answer" data-js="answer-container">
           <h2 class="answer__headline">The answer is</h2>
           <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="tags">
-          <ul>
-            <li>Tag one</li>
-            <li>Tag two</li>
-            <li>Tag three</li>
-            <li>Tag four</li>
-          </ul>
+
+          <div class="tags">
+            <ul>
+              <li>Tag one</li>
+              <li>Tag two</li>
+              <li>Tag three</li>
+              <li>Tag four</li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>

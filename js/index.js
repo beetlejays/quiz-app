@@ -32,15 +32,29 @@ function showAnswer() {
   });
 }
 
+//// Event Listeners
+
 homePageButton.addEventListener("click", () => {
+  profilePage.classList.add("hide-block");
+  bookmarkPage.classList.add("hide-block");
+  createPage.classList.add("hide-block");
+  homePage.classList.remove("hide-block");
   console.log("home");
 });
 
 createPageButton.addEventListener("click", () => {
+  profilePage.classList.add("hide-block");
+  bookmarkPage.classList.add("hide-block");
+  createPage.classList.remove("hide-block");
+  homePage.classList.add("hide-block");
   console.log("create");
 });
 
 bookmarkPageButton.addEventListener("click", () => {
+  profilePage.classList.add("hide-block");
+  bookmarkPage.classList.remove("hide-block");
+  createPage.classList.add("hide-block");
+  homePage.classList.add("hide-block");
   console.log("bookmark");
 });
 
@@ -49,8 +63,6 @@ profilePageButton.addEventListener("click", () => {
   bookmarkPage.classList.add("hide-block");
   createPage.classList.add("hide-block");
   homePage.classList.add("hide-block");
-
-  console.log("profile");
 });
 
 //// Start functions

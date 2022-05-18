@@ -21,11 +21,11 @@
 }
 
 .display-block {
-  display: block;
+  visibility: visible;
 }
 
 .hide-block {
-  display: none;
+  visibility: hidden;
 }
 
 .sr-only {

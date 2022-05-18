@@ -19,3 +19,9 @@
   background-color: var(--color-primary);
   color: white;
 }
+
+.nav-button {
+  border: none;
+  outline: none;
+  background-color: var(--color-primary);
+}

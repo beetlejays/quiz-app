@@ -20,6 +20,18 @@
   padding-bottom: 3rem;
 }
 
+.display-block {
+  display: block;
+}
+
+.hide-block {
+  display: none;
+}
+
+.icon--active {
+  fill: hotpink;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

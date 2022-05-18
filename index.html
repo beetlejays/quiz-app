@@ -14,6 +14,8 @@
     </header>
 
     <main>
+
+    <section data-js="home">
       <section class="card" data-js="card-container">
         <img class="card__bookmark" src="./img/card-bookmark.svg" alt="" />
         <div>
@@ -45,8 +47,107 @@
           </div>
         </div>
       </section>
-    </main>
+    </section>
 
+    <section data-js="bookmark">
+      <section class="card" data-js="card-container">
+        <img
+          class="card__bookmark card__bookmark--active"
+          src="../img/card-bookmark.svg"
+          alt=""
+        />
+        <div>
+          <h2 class="headline">Question: What time is it?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            natus nisi excepturi quae doloribus architecto voluptate quam odit
+            in iste?
+          </p>
+        </div>
+
+        <div class="container flex--center pt-1 pb-1">
+          <button class="btn" id="button" data-js="show-button">
+            Show Answer / Hide
+          </button>
+        </div>
+
+        <div class="answer" data-js="answer-container">
+          <h2 class="answer__headline">The answer is</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+
+          <div class="tags">
+            <ul>
+              <li>Tag one</li>
+              <li>Tag two</li>
+              <li>Tag three</li>
+              <li>Tag four</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section data-js="create">
+      <section class="main-card">
+        <img class="bookmark-icon" src="" alt="" />
+        <div>
+          <h2 class="headline"></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            natus nisi excepturi quae doloribus architecto voluptate quam odit
+            in iste?
+          </p>          
+        </div>
+
+        <form class="flex flex-column" action="">
+ 
+       <label for="question"> Question</label>
+        <input id="question" type="textarea" cols="10" rows="30" placeholder="Type a question..."></textarea>
+    
+        <label for="answer">Answer</label>     
+        <input id="answer" type="textarea" placeholder="Your answer"></textarea>
+     
+ 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, doloribus.</p>
+        <label for="tags">Tags</label> 
+        <input class="tag-list" type="text" placeholder="html, js, node">
+
+        <input class="btn" type="submit" value="Create new question">
+    </form>
+      </section>
+    </section>
+
+    <section data-js="profil">
+      <section class="main-card">
+        <div class="profile">
+          <img class="profile__picture" src="../img/jay-profile.png" alt="" />
+          <p class="about-headline">
+            Jay <span class="about-headline__thin">Milledge</span>
+          </p>
+        </div>
+        <img class="bookmark-icon" src="" alt="" />
+        <div>
+          <h2 class="headline"></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            natus nisi excepturi quae doloribus architecto voluptate quam odit
+            in iste?
+          </p>
+        </div>
+        <div class="tags">
+          <h3>Skills</h3>
+          <ul>
+            <li>Tag one</li>
+            <li>Tag two</li>
+            <li>Tag three</li>
+            <li>Tag four</li>
+          </ul>
+        </div>
+        <button class="btn">Logout</button>
+      </section>
+    </section>
+
+  </main>
     <nav>
       <div class="nav">
         <img class="icon nav--active" src="./img/home.svg" alt="" />

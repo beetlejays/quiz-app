@@ -29,3 +29,7 @@ nav {
 .nav--active {
   filter: invert(0.9) sepia(1) hue-rotate(200deg);
 }
+
+.nav button {
+  cursor: pointer;
+}

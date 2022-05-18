@@ -42,6 +42,13 @@ homePageButton.addEventListener("click", () => {
   console.log("home");
 });
 
+profilePageButton.addEventListener("click", () => {
+  profilePage.classList.remove("hide-block");
+  bookmarkPage.classList.add("hide-block");
+  createPage.classList.add("hide-block");
+  homePage.classList.add("hide-block");
+});
+
 createPageButton.addEventListener("click", () => {
   profilePage.classList.add("hide-block");
   bookmarkPage.classList.add("hide-block");
@@ -56,13 +63,6 @@ bookmarkPageButton.addEventListener("click", () => {
   createPage.classList.add("hide-block");
   homePage.classList.add("hide-block");
   console.log("bookmark");
-});
-
-profilePageButton.addEventListener("click", () => {
-  profilePage.classList.remove("hide-block");
-  bookmarkPage.classList.add("hide-block");
-  createPage.classList.add("hide-block");
-  homePage.classList.add("hide-block");
 });
 
 //// Start functions

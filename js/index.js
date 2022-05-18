@@ -45,6 +45,11 @@ bookmarkPageButton.addEventListener("click", () => {
 });
 
 profilePageButton.addEventListener("click", () => {
+  profilePage.classList.remove("hide-block");
+  bookmarkPage.classList.add("hide-block");
+  createPage.classList.add("hide-block");
+  homePage.classList.add("hide-block");
+
   console.log("profile");
 });
 

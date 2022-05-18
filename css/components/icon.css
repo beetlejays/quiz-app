@@ -1,9 +1,14 @@
 .icon {
   width: 45px;
   height: 45px;
+  transition: 0.4s;
 }
 
 .icon-button {
   background-color: var(--color-primary);
   border: none;
+}
+
+.icon:hover {
+  fill: hotpink;
 }

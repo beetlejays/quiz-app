@@ -8,6 +8,7 @@ const homePage = document.querySelector('[data-js="home-page"]');
 const bookmarkPage = document.querySelector('[data-js="bookmark-page"]');
 const createPage = document.querySelector('[data-js="create-page"]');
 const profilePage = document.querySelector('[data-js="profile-page"]');
+const homeIcon = document.querySelector('[data-js="home-icon"]');
 
 //// Page-Button Variables
 const homePageButton = document.querySelector('[data-js="home-page-button"]');
@@ -64,6 +65,12 @@ bookmarkPageButton.addEventListener("click", () => {
   homePage.classList.add("hide-block");
   console.log("bookmark");
 });
+
+//// Active states
+
+if (homePage) {
+  homeIcon.classList.add("icon--active");
+}
 
 //// Start functions
 

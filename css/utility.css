@@ -28,6 +28,10 @@
   display: none;
 }
 
+.icon--active {
+  fill: hotpink;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

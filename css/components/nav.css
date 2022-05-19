@@ -33,4 +33,5 @@ nav {
 
 .nav button {
   cursor: pointer;
+  fill: white;
 }

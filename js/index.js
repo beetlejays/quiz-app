@@ -23,6 +23,10 @@ const profilePageButton = document.querySelector(
   '[data-js="profile-page-button"]'
 );
 
+const bookmarkAnswerButton = document.querySelector(
+  '[data-js="bookmark-answer-button"]'
+);
+
 /// Functions
 
 function showAnswer() {
@@ -32,6 +36,10 @@ function showAnswer() {
     card.classList.toggle("card--active");
   });
 }
+
+bookmarkAnswerButton.addEventListener("click", () => {
+  bookmarkAnswerButton.classList.toggle("card__bookmark--active");
+});
 
 //// Event Listeners
 
@@ -68,9 +76,9 @@ bookmarkPageButton.addEventListener("click", () => {
 
 //// Active states
 
-if (homePage) {
+/* if (homePage) {
   homeIcon.classList.add("icon--active");
-}
+}*/
 
 //// Start functions
 

@@ -24,14 +24,17 @@
   position: absolute;
   top: -1rem;
   right: 2rem;
+  background-color: none;
+  fill: var(--color-secondary);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card__bookmark:hover {
+  fill: hotpink;
 }
 
 .card__bookmark--active {
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: -1rem;
-  right: 2rem;
   filter: hue-rotate(90deg) brightness(2);
 }
 

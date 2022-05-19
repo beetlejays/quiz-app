@@ -24,13 +24,12 @@
   position: absolute;
   top: -1rem;
   right: 2rem;
-  background-color: none;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .card__bookmark:hover {
-  fill: hotpink;
+  filter: hue-rotate(90deg) brightness(2);
 }
 
 .card__bookmark--active {

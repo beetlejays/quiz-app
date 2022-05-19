@@ -16,7 +16,7 @@
 }
 
 .about-headline::after {
-  content: "";
+  content: '';
   position: relative;
   width: 3rem;
   border-bottom: 3px solid var(--light-grey);

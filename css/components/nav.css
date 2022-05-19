@@ -2,7 +2,7 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 
 .nav {
@@ -12,6 +12,7 @@ nav {
   height: 80px;
   align-items: center;
   margin: auto;
+  background-color: var(--color-primary);
 }
 
 .nav a {

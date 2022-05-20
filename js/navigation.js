@@ -1,4 +1,5 @@
 export function navigation() {
+  //// Element Variables
   const homePage = document.querySelector('[data-js="home-page"]');
   const bookmarkPage = document.querySelector('[data-js="bookmark-page"]');
   const createPage = document.querySelector('[data-js="create-page"]');
@@ -17,6 +18,7 @@ export function navigation() {
     '[data-js="profile-page-button"]'
   );
 
+  //// Page-Button Events
   homePageButton.addEventListener('click', () => {
     profilePage.classList.add('hide-block');
     bookmarkPage.classList.add('hide-block');

@@ -7,7 +7,3 @@ import { bookmark } from './js/bookmark.js';
 showAnswer();
 navigation();
 bookmark();
-
-/// Main Variables
-
-//// Event Listeners

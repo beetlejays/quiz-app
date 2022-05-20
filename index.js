@@ -8,6 +8,7 @@ const homePage = document.querySelector('[data-js="home-page"]');
 const bookmarkPage = document.querySelector('[data-js="bookmark-page"]');
 const createPage = document.querySelector('[data-js="create-page"]');
 const profilePage = document.querySelector('[data-js="profile-page"]');
+const bookmarkTag = document.querySelector('[data-js="bookmark-tag"]');
 //const homeIcon = document.querySelector('[data-js="home-icon"]');
 
 //// Page-Button Variables
@@ -72,6 +73,10 @@ bookmarkPageButton.addEventListener('click', () => {
   createPage.classList.add('hide-block');
   homePage.classList.add('hide-block');
   console.log('bookmark');
+});
+
+bookmarkTag.addEventListener('click', () => {
+  bookmarkTag.classList.toggle('card__bookmark--active');
 });
 
 //// Active states

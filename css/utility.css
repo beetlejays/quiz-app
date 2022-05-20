@@ -39,3 +39,16 @@
   white-space: nowrap;
   border-width: 0;
 }
+
+.fader {
+  animation: fade-up-card 700ms ease-in-out forwards;
+  opacity: 0;
+  transform: translateY(20%);
+}
+
+@keyframes fade-up-card {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

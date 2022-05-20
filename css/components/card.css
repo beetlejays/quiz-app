@@ -6,7 +6,6 @@
   padding: 3rem;
   position: relative;
   transition: 0.4s ease-in-out;
-  height: 23rem;
 }
 
 .main-card {
@@ -37,15 +36,12 @@
 }
 
 [data-js='answer-container'] {
-  opacity: 0;
-  visibility: 0;
   transition: 0.4s;
-  height: 500px;
+  display: none;
 }
 
 .answer-display {
-  opacity: 1;
-  visibility: 1;
+  display: block;
 }
 
 .card--active {

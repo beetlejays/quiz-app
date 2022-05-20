@@ -27,7 +27,9 @@
   cursor: pointer;
 }
 
-.card__bookmark:hover {
+.card__bookmark:hover,
+.card__bookmark:active,
+.card__bookmark:focus {
   filter: hue-rotate(90deg) brightness(2);
 }
 

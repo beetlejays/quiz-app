@@ -17,6 +17,10 @@ body {
   background: none;
 }
 
+.button-reset:focus {
+  border: 1px solid grey;
+}
+
 ul,
 ol,
 a,

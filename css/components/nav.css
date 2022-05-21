@@ -21,7 +21,9 @@ nav {
   background-color: var(--color-primary);
 }
 
-.nav-button--active {
+.nav-button--active,
+.nav-button:focus,
+.nav-button:active {
   fill: orange;
 }
 

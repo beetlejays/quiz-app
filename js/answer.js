@@ -1,22 +1,14 @@
 export function showAnswer() {
   /// Variables
-  const showButtons = document.querySelectorAll('[data-js="show-button"]');
-  const answerText = document.querySelector('[data-js="answer-container"]');
-  const card = document.querySelector('[data-js="card-container"]');
 
-  /// Run functions
-  /*  showButton.addEventListener('click', () => {
-    answerText.classList.toggle('answer-display');
-    showButton.classList.toggle('primary-bg-color--active');
-    card.classList.toggle('card--active');
-  }); */
+  const cards = document.querySelectorAll('[data-js="card-container"]');
 
-  showButtons.forEach(showButton => {
+  cards.forEach(card => {
+    const showButton = card.querySelector('[data-js="show-button"]');
+    const answer = card.querySelector('[data-js="answer-container"]');
     showButton.addEventListener('click', () => {
-      answerText.classList.toggle('answer-display');
-      showButton.classList.toggle('primary-bg-color--active');
-      card.classList.toggle('card--active');
-      console.log('button test');
+      answer.classList.toggle('answer-display');
+      console.log(answer);
     });
   });
 }

@@ -18,23 +18,26 @@
   position: relative;
 }
 
-.card__bookmark {
+.card__bookmark__button {
   width: 4rem;
   height: 4rem;
-  position: absolute;
-  top: -1rem;
+  top: -2rem;
   right: 2rem;
+  position: absolute;
   transition: 0.3s;
   cursor: pointer;
+  background-color: white;
+  border: 8px white solid;
 }
 
-.card__bookmark:hover,
-.card__bookmark:active,
-.card__bookmark:focus {
+.card__bookmark__button:hover,
+.card__bookmark__button:active,
+.card__bookmark__button:focus,
+.card__bookmark__button:focus-visible {
   filter: hue-rotate(90deg) brightness(2);
 }
 
-.card__bookmark--active {
+.card__bookmark__button--active {
   filter: hue-rotate(90deg) brightness(2);
 }
 

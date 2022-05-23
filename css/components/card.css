@@ -5,7 +5,6 @@
   box-shadow: 2px 6px 8px 3px #888;
   padding: 3rem;
   position: relative;
-  transition: 0.4s ease-in-out;
   margin-bottom: 80px;
 }
 
@@ -16,6 +15,9 @@
   box-shadow: 2px 6px 8px 3px #888;
   padding: 3rem;
   position: relative;
+  min-height: 200px;
+  overflow: auto;
+  transition: min-height 0.3s ease-in-out;
 }
 
 .card__bookmark__button {
@@ -30,24 +32,8 @@
   border: 8px white solid;
 }
 
-.card__bookmark__button:hover,
-.card__bookmark__button:active,
-.card__bookmark__button:focus,
-.card__bookmark__button:focus-visible {
-  filter: hue-rotate(90deg) brightness(2);
-}
-
 .card__bookmark__button--active {
   filter: hue-rotate(90deg) brightness(2);
-}
-
-[data-js='answer-container'] {
-  transition: 0.4s;
-  display: none;
-}
-
-.answer-display {
-  display: block;
 }
 
 .card--active {

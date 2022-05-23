@@ -6,7 +6,6 @@ export function bookmark() {
   bookmarkTags.forEach(bookmarkTag => {
     bookmarkTag.addEventListener('click', () => {
       bookmarkTag.classList.toggle('card__bookmark__button--active');
-      console.log('bookmarks works');
     });
   });
 }

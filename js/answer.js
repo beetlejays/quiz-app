@@ -8,6 +8,7 @@ export function showAnswer() {
     const answer = card.querySelector('[data-js="answer-container"]');
     showButton.addEventListener('click', () => {
       answer.classList.toggle('answer-display');
+      showButton.classList.toggle('btn--active');
       console.log(answer);
     });
   });

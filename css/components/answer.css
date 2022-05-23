@@ -1,3 +1,17 @@
+.answer {
+  transition: 0.3s;
+  opacity: 0;
+}
+
 .answer__headline {
   color: var(--color-primary);
+}
+
+[data-js='answer-container'] {
+  display: none;
+}
+
+.answer-display {
+  opacity: 1;
+  display: block;
 }
